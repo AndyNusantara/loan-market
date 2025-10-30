@@ -1,4 +1,3 @@
-// MultiStepFormLayout.tsx
 import { useState } from 'react'
 import Timeline from './components/timeline'
 import Navigation from './components/navigation'
