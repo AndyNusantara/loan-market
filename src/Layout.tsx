@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 	}, [isMobile])
 
 	return (
-		<div className="w-full h-full flex relative bg-gray-100">
+		<div className="w-full min-h-screen flex relative bg-gray-100">
 			<div
 				className={`${
 					isSidebarOpen ? 'block' : 'hidden'
