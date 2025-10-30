@@ -1,4 +1,6 @@
-export const loanProducts = [
+import type { LoanProductType } from '../types/dataType'
+
+export const loanProducts: LoanProductType[] = [
 	{
 		id: 'mandiri-bunga-special-2023',
 		bankName: 'Mandiri',
